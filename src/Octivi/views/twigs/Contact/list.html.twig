@@ -11,7 +11,8 @@
     <tr>
         <th> Name</th>
         <th> Phone Numbers</th>
-        <th> Actions</th>
+        <th> Edit</th>
+        <th> Delete</th>
     </tr>
     </thead>
 
@@ -32,6 +33,11 @@
                         {% endfor %}
                     </td>
 
+                    </td>
+
+                    <td class="with_plus">
+                        <a onclick="clickAction()" class="btn"><span
+                                class="glyphicon glyphicon-pencil"></span> Edit</a>
                     </td>
 
                     <td class="with_plus">

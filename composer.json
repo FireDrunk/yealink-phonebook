@@ -25,7 +25,8 @@
         "symfony/locale": "~2.2",
         "symfony/twig-bridge": "~2.2",
         "twig/twig": ">=1.8,<2.0-dev",
-        "symfony/validator": "~2.3"
+        "symfony/validator": "~2.3",
+        "symfony/security-csrf": "~3"
     },
     "require-dev": {
         "kherge/box": "~2.0"
